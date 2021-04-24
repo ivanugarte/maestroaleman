@@ -1,0 +1,126 @@
+.c_prev {
+  left: 89% !important;
+  bottom: 5% !important;
+}
+
+.c_next {
+  right: 2% !important;
+  bottom: 5% !important;
+}
+
+.c_prev,
+.c_next {
+  top: 85%;
+  width: 5%;
+}
+
+.carousel-indicators {
+
+  right: 80%;
+  bottom: 60%;
+  left: auto;
+  display: block;
+}
+
+.carousel-indicators [data-bs-target] {
+
+  width: 15px;
+  height: 15px;
+}
+
+/* whatsapp */
+#whatsapp {
+  display: block;
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  line-height: 80px;
+  z-index: 999 
+}
+
+/* informacion del local y logo */
+#navbar {
+  padding: 0px 150px;
+  margin-left: 118px;
+  margin-right: 118px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center
+}
+
+#lista {
+  text-shadow: 1px 0px rgb(255, 238, 0);
+}
+
+
+
+#grid {
+  color:rgb(238, 241, 15)
+}
+
+#banner div {
+  padding: 30px 70px;
+}
+
+#imagen, 
+#sanduwich, 
+#chorrillana, 
+#promocion,
+#vienesa   {
+  font-family: 'Arial Black';
+}
+
+
+.card-body {
+  background-color: black;
+  color:yellow;
+}
+
+#imagen {
+   max-width: 100%;
+   height: auto;
+  } 
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 30px;
+    width:  30px;
+    outline: black;
+    color:yellow;
+    background-size: 100%, 100%;
+    /* border-radius: 50%; */
+    /* border: 1px solid black; */
+    background-image: none;
+  }
+  
+  .carousel-control-next-icon:after
+  {
+    content: '>';
+    font-size: 55px;
+    color: rgb(36, 36, 32);
+  }
+  
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: red;
+  }
+
+/* RESPOSIVE */
+@media(max-width: 768px) {
+
+  
+  /* BANNER */
+  #lista {
+    flex-direction: column;
+    display: block;
+    padding: 10px;
+    padding-left: 55px;
+    text-shadow: 1px 0px rgb(238, 241, 15);
+    border-radius: 50%;
+  }
+}
